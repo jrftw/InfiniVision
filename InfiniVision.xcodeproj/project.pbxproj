@@ -19,10 +19,7 @@
 		BF2D89A52B9F1E4500123456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2D89A72B9F1E4500123456 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
 		BF2D89B92B9F1E4500123456 /* LoggingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingService.swift; sourceTree = "<group>"; };
-		BF2D89BC2B9F1E4500123456 /* InfiniVisionVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisionVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF2D89BD2B9F1E4500123456 /* InfiniVisioniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisioniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF2D89BE2B9F1E4500123456 /* InfiniVisionMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisionMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF2D89BF2B9F1E4500123456 /* InfiniVisionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfiniVisionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D89BC2B9F1E4500123456 /* InfiniVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				BF2D89C22B9F1E4500123456 /* InfiniVision */,
-				BF2D89C32B9F1E4500123456 /* InfiniVisionKit */,
 				BF2D89C42B9F1E4500123456 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,31 +45,15 @@
 			isa = PBXGroup;
 			children = (
 				BF2D89D12B9F1E4500123456 /* Shared */,
-				BF2D89D22B9F1E4500123456 /* iOS */,
-				BF2D89D32B9F1E4500123456 /* macOS */,
-				BF2D89D42B9F1E4500123456 /* visionOS */,
 				BF2D89A52B9F1E4500123456 /* Assets.xcassets */,
 			);
 			path = InfiniVision;
 			sourceTree = "<group>";
 		};
-		BF2D89C32B9F1E4500123456 /* InfiniVisionKit */ = {
-			isa = PBXGroup;
-			children = (
-				BF2D89D52B9F1E4500123456 /* Sources */,
-				BF2D89D62B9F1E4500123456 /* Resources */,
-				BF2D89D72B9F1E4500123456 /* Supporting Files */,
-			);
-			path = InfiniVisionKit;
-			sourceTree = "<group>";
-		};
 		BF2D89C42B9F1E4500123456 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF2D89BC2B9F1E4500123456 /* InfiniVisionVisionOS.app */,
-				BF2D89BD2B9F1E4500123456 /* InfiniVisioniOS.app */,
-				BF2D89BE2B9F1E4500123456 /* InfiniVisionMac.app */,
-				BF2D89BF2B9F1E4500123456 /* InfiniVisionKit.framework */,
+				BF2D89BC2B9F1E4500123456 /* InfiniVision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,60 +63,18 @@
 			children = (
 				BF2D89A12B9F1E4500123456 /* InfiniVisionApp.swift */,
 				BF2D89A32B9F1E4500123456 /* ContentView.swift */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		BF2D89D22B9F1E4500123456 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		BF2D89D32B9F1E4500123456 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		BF2D89D42B9F1E4500123456 /* visionOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = visionOS;
-			sourceTree = "<group>";
-		};
-		BF2D89D52B9F1E4500123456 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
 				BF2D89A72B9F1E4500123456 /* DeviceManager.swift */,
 				BF2D89B92B9F1E4500123456 /* LoggingService.swift */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		BF2D89D62B9F1E4500123456 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		BF2D89D72B9F1E4500123456 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF2D89C52B9F1E4500123456 /* InfiniVisionVisionOS */ = {
+		BF2D89C52B9F1E4500123456 /* InfiniVision */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF2D89C62B9F1E4500123456 /* Build configuration list for PBXNativeTarget "InfiniVisionVisionOS" */;
+			buildConfigurationList = BF2D89C62B9F1E4500123456 /* Build configuration list for PBXNativeTarget "InfiniVision" */;
 			buildPhases = (
 				BF2D89C72B9F1E4500123456 /* Sources */,
 				BF2D89C02B9F1E4500123456 /* Frameworks */,
@@ -146,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = InfiniVisionVisionOS;
-			productName = InfiniVisionVisionOS;
-			productReference = BF2D89BC2B9F1E4500123456 /* InfiniVisionVisionOS.app */;
+			name = InfiniVision;
+			productName = InfiniVision;
+			productReference = BF2D89BC2B9F1E4500123456 /* InfiniVision.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,11 +96,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					BF2D89C52B9F1E4500123456 = {
-						CreatedOnToolsVersion = 15.3;
+						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
@@ -179,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF2D89C52B9F1E4500123456 /* InfiniVisionVisionOS */,
+				BF2D89C52B9F1E4500123456 /* InfiniVision */,
 			);
 		};
 /* End PBXProject section */
@@ -268,9 +206,13 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "xros xrsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
@@ -326,10 +268,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "xros xrsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
@@ -338,6 +283,15 @@
 
 /* Begin XCConfigurationList section */
 		BF2D89CA2B9F1E4500123456 /* Build configuration list for PBXProject "InfiniVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2D89CB2B9F1E4500123456 /* Debug */,
+				BF2D89CC2B9F1E4500123456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2D89C62B9F1E4500123456 /* Build configuration list for PBXNativeTarget "InfiniVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF2D89CB2B9F1E4500123456 /* Debug */,

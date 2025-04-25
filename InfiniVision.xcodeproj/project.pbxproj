@@ -6,111 +6,167 @@
 	objectVersion = 56;
 	objects = {
 /* Begin PBXBuildFile section */
-		1A1A1A1A1A1A1A1A1A1A1A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1B /* AppDelegate.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1D /* ContentView.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A1E /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A1F /* DeviceManager.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A20 /* ScreenCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A21 /* ScreenCaptureService.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A22 /* InputService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A23 /* InputService.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A24 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A25 /* SubscriptionManager.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A26 /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A27 /* StatusBarView.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A28 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A29 /* ScreenView.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A2A /* InfiniVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A2B /* InfiniVisionApp.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A2C /* InfiniVisioniOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A2D /* InfiniVisioniOSApp.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A2E /* InfiniVisionMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A2F /* InfiniVisionMacApp.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A30 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A31 /* AudioService.swift */; };
-		1A1A1A1A1A1A1A1A1A1A1A32 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A1A33 /* DesignSystem.swift */; };
+		BF2D89A02B9F1E4500123456 /* InfiniVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D89A12B9F1E4500123456 /* InfiniVisionApp.swift */; };
+		BF2D89A22B9F1E4500123456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D89A32B9F1E4500123456 /* ContentView.swift */; };
+		BF2D89A42B9F1E4500123456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2D89A52B9F1E4500123456 /* Assets.xcassets */; };
+		BF2D89A62B9F1E4500123456 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D89A72B9F1E4500123456 /* DeviceManager.swift */; };
+		BF2D89B82B9F1E4500123456 /* LoggingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D89B92B9F1E4500123456 /* LoggingService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A1A1A1A1A1A1A1A1A1A1A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A1F /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A21 /* ScreenCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureService.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A23 /* InputService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputService.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A25 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A27 /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A29 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A2B /* InfiniVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniVisionApp.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A2D /* InfiniVisioniOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniVisioniOSApp.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A2F /* InfiniVisionMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniVisionMacApp.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A31 /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A33 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
-		1A1A1A1A1A1A1A1A1A1A1A34 /* InfiniVisionVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisionVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A1A1A1A1A1A1A1A1A1A1A35 /* InfiniVisioniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisioniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A1A1A1A1A1A1A1A1A1A1A36 /* InfiniVisionMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisionMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A1A1A1A1A1A1A1A1A1A1A37 /* InfiniVisionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfiniVisionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D89A12B9F1E4500123456 /* InfiniVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniVisionApp.swift; sourceTree = "<group>"; };
+		BF2D89A32B9F1E4500123456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF2D89A52B9F1E4500123456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2D89A72B9F1E4500123456 /* DeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		BF2D89B92B9F1E4500123456 /* LoggingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingService.swift; sourceTree = "<group>"; };
+		BF2D89BC2B9F1E4500123456 /* InfiniVisionVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisionVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D89BD2B9F1E4500123456 /* InfiniVisioniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisioniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D89BE2B9F1E4500123456 /* InfiniVisionMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniVisionMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2D89BF2B9F1E4500123456 /* InfiniVisionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfiniVisionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A1A1A1A1A1A1A1A1A1A1A38 /* Frameworks */ = {
+		BF2D89C02B9F1E4500123456 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1A1A1A1A1A1A1A1A1A1A39 /* InfiniVisionKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A1A1A1A1A1A1A1A1A1A1A3A = {
+		BF2D89C12B9F1E4500123456 = {
 			isa = PBXGroup;
 			children = (
-				1A1A1A1A1A1A1A1A1A1A1A3B /* InfiniVisionVisionOS */,
-				1A1A1A1A1A1A1A1A1A1A1A3C /* InfiniVisioniOS */,
-				1A1A1A1A1A1A1A1A1A1A1A3D /* InfiniVisionMac */,
-				1A1A1A1A1A1A1A1A1A1A1A3E /* InfiniVisionKit */,
-				1A1A1A1A1A1A1A1A1A1A1A3F /* Products */,
+				BF2D89C22B9F1E4500123456 /* InfiniVision */,
+				BF2D89C32B9F1E4500123456 /* InfiniVisionKit */,
+				BF2D89C42B9F1E4500123456 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A1A1A1A1A1A1A1A1A1A1A3F /* Products */ = {
+		BF2D89C22B9F1E4500123456 /* InfiniVision */ = {
 			isa = PBXGroup;
 			children = (
-				1A1A1A1A1A1A1A1A1A1A1A34 /* InfiniVisionVisionOS.app */,
-				1A1A1A1A1A1A1A1A1A1A1A35 /* InfiniVisioniOS.app */,
-				1A1A1A1A1A1A1A1A1A1A1A36 /* InfiniVisionMac.app */,
-				1A1A1A1A1A1A1A1A1A1A1A37 /* InfiniVisionKit.framework */,
+				BF2D89D12B9F1E4500123456 /* Shared */,
+				BF2D89D22B9F1E4500123456 /* iOS */,
+				BF2D89D32B9F1E4500123456 /* macOS */,
+				BF2D89D42B9F1E4500123456 /* visionOS */,
+				BF2D89A52B9F1E4500123456 /* Assets.xcassets */,
+			);
+			path = InfiniVision;
+			sourceTree = "<group>";
+		};
+		BF2D89C32B9F1E4500123456 /* InfiniVisionKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D89D52B9F1E4500123456 /* Sources */,
+				BF2D89D62B9F1E4500123456 /* Resources */,
+				BF2D89D72B9F1E4500123456 /* Supporting Files */,
+			);
+			path = InfiniVisionKit;
+			sourceTree = "<group>";
+		};
+		BF2D89C42B9F1E4500123456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D89BC2B9F1E4500123456 /* InfiniVisionVisionOS.app */,
+				BF2D89BD2B9F1E4500123456 /* InfiniVisioniOS.app */,
+				BF2D89BE2B9F1E4500123456 /* InfiniVisionMac.app */,
+				BF2D89BF2B9F1E4500123456 /* InfiniVisionKit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2D89D12B9F1E4500123456 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D89A12B9F1E4500123456 /* InfiniVisionApp.swift */,
+				BF2D89A32B9F1E4500123456 /* ContentView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BF2D89D22B9F1E4500123456 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		BF2D89D32B9F1E4500123456 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BF2D89D42B9F1E4500123456 /* visionOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = visionOS;
+			sourceTree = "<group>";
+		};
+		BF2D89D52B9F1E4500123456 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BF2D89A72B9F1E4500123456 /* DeviceManager.swift */,
+				BF2D89B92B9F1E4500123456 /* LoggingService.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BF2D89D62B9F1E4500123456 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF2D89D72B9F1E4500123456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A1A1A1A1A1A1A1A1A1A1A40 /* InfiniVisionVisionOS */ = {
+		BF2D89C52B9F1E4500123456 /* InfiniVisionVisionOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A41 /* Build configuration list for PBXNativeTarget "InfiniVisionVisionOS" */;
+			buildConfigurationList = BF2D89C62B9F1E4500123456 /* Build configuration list for PBXNativeTarget "InfiniVisionVisionOS" */;
 			buildPhases = (
-				1A1A1A1A1A1A1A1A1A1A1A42 /* Sources */,
-				1A1A1A1A1A1A1A1A1A1A1A38 /* Frameworks */,
-				1A1A1A1A1A1A1A1A1A1A1A43 /* Resources */,
+				BF2D89C72B9F1E4500123456 /* Sources */,
+				BF2D89C02B9F1E4500123456 /* Frameworks */,
+				BF2D89C82B9F1E4500123456 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1A1A1A1A1A1A1A1A1A1A1A44 /* PBXTargetDependency */,
 			);
 			name = InfiniVisionVisionOS;
 			productName = InfiniVisionVisionOS;
-			productReference = 1A1A1A1A1A1A1A1A1A1A1A34 /* InfiniVisionVisionOS.app */;
+			productReference = BF2D89BC2B9F1E4500123456 /* InfiniVisionVisionOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A1A1A1A1A1A1A1A1A1A1A45 /* Project object */ = {
+		BF2D89C92B9F1E4500123456 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					1A1A1A1A1A1A1A1A1A1A1A40 = {
-						CreatedOnToolsVersion = 15.0;
+					BF2D89C52B9F1E4500123456 = {
+						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 1A1A1A1A1A1A1A1A1A1A1A46 /* Build configuration list for PBXProject "InfiniVision" */;
+			buildConfigurationList = BF2D89CA2B9F1E4500123456 /* Build configuration list for PBXProject "InfiniVision" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +174,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A1A1A1A1A1A1A1A1A1A1A3A;
-			productRefGroup = 1A1A1A1A1A1A1A1A1A1A1A3F /* Products */;
+			mainGroup = BF2D89C12B9F1E4500123456;
+			productRefGroup = BF2D89C42B9F1E4500123456 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A1A1A1A1A1A1A1A1A1A1A40 /* InfiniVisionVisionOS */,
-				1A1A1A1A1A1A1A1A1A1A1A47 /* InfiniVisioniOS */,
-				1A1A1A1A1A1A1A1A1A1A1A48 /* InfiniVisionMac */,
-				1A1A1A1A1A1A1A1A1A1A1A49 /* InfiniVisionKit */,
+				BF2D89C52B9F1E4500123456 /* InfiniVisionVisionOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A1A1A1A1A1A1A1A1A1A1A43 /* Resources */ = {
+		BF2D89C82B9F1E4500123456 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D89A42B9F1E4500123456 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A1A1A1A1A1A1A1A1A1A1A42 /* Sources */ = {
+		BF2D89C72B9F1E4500123456 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1A1A1A1A1A1A1A1A1A1A1A /* AppDelegate.swift in Sources */,
-				1A1A1A1A1A1A1A1A1A1A1A1C /* ContentView.swift in Sources */,
-				1A1A1A1A1A1A1A1A1A1A1A2A /* InfiniVisionApp.swift in Sources */,
+				BF2D89A02B9F1E4500123456 /* InfiniVisionApp.swift in Sources */,
+				BF2D89A22B9F1E4500123456 /* ContentView.swift in Sources */,
+				BF2D89A62B9F1E4500123456 /* DeviceManager.swift in Sources */,
+				BF2D89B82B9F1E4500123456 /* LoggingService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A1A1A1A1A1A1A1A1A1A1A4A /* Debug */ = {
+		BF2D89CB2B9F1E4500123456 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -206,21 +263,24 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VISIONOS_DEPLOYMENT_TARGET = 1.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
-		1A1A1A1A1A1A1A1A1A1A1A4B /* Release */ = {
+		BF2D89CC2B9F1E4500123456 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -249,7 +309,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -262,29 +322,31 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VISIONOS_DEPLOYMENT_TARGET = 1.0;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A1A1A1A1A1A1A1A1A1A1A41 /* Build configuration list for PBXNativeTarget "InfiniVisionVisionOS" */ = {
+		BF2D89CA2B9F1E4500123456 /* Build configuration list for PBXProject "InfiniVision" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A1A1A1A1A1A1A1A1A1A1A4C /* Debug */,
-				1A1A1A1A1A1A1A1A1A1A1A4D /* Release */,
+				BF2D89CB2B9F1E4500123456 /* Debug */,
+				BF2D89CC2B9F1E4500123456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-/* End XCConfigurationList */
+/* End XCConfigurationList section */
 	};
-	rootObject = 1A1A1A1A1A1A1A1A1A1A1A45 /* Project object */;
+	rootObject = BF2D89C92B9F1E4500123456 /* Project object */;
 } 
